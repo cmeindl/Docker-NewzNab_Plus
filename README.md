@@ -13,14 +13,13 @@ Dont forget to go to Site Settings in Newznab and add your Newznab user id or yo
 
 uses a standard MySQL docker image for database.
 
-Commands to get started 
-
-MySQL
+# MySQL
 sudo docker run  -v <LocalConfigDir>:/var/lib/mysql --name mysql -e MYSQL_ROOT_PASSWORD=90210 -p 3306:3306 -d mysql:latest
 
-Build the Docker file with 
+# Newznab
+Build the Docker file: 
 Sudo docker build -t "newznab" .
-Then run with 
+Start the image:
 sudo docker run --restart=always -v <LocalNZBDir>:/nzb -v /etc/localtime:/etc/localtime:ro   -p 80:80 -d   --name="newznab" newznab
 
 
