@@ -1,7 +1,7 @@
 # Docker-NewzNab_Plus
 NewzNab plus as Docker -  SQL Runs as seperate container
 
-Newznab as a Docker file 
+Newznab as a Docker file  (http://www.newznab.com/)
 You will need to modify config.php for your settings (im working on making this persist in docker but the way NN install runs is a little painful)
 You will also need to modify the Dockerfile to include the NewzNab Plus SVN Username and password (Provided when you registered)
 
