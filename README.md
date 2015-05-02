@@ -1,5 +1,5 @@
 # Docker-NewzNab_Plus
-NewzNab plus as Docker - Does  SQL Run as seperate container
+NewzNab plus as Docker -  SQL Runs as seperate container
 
 Newznab as a Docker file 
 You will need to modify config.php for your settings (im working on making this persist in docker but the way NN install runs is a little painful)
