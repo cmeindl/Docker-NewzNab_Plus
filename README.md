@@ -29,7 +29,7 @@ Start the image:
 sudo docker run --restart=always -v <LocalNZBDir>:/nzb -v /etc/localtime:/etc/localtime:ro   -p 80:80 -d   --name="newznab" newznab
 ```
 # Home Theatre Setup
-This forms part of a Broader home TV System- The remainder use off the Shelf Docker files from Tim-Haak
+This forms part of a Broader home TV System- The remainder use off the Shelf Docker files from Tim-Haak (https://github.com/timhaak)
 
 Plex
 ```
