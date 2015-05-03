@@ -15,7 +15,7 @@ uses a standard MySQL docker image for database.
 
 MySQL
 ```
-sudo docker run  -v <LocalConfigDir>:/var/lib/mysql --name mysql -e MYSQL_ROOT_PASSWORD=90210 -p 3306:3306 -d mysql:latest
+sudo docker run  -v <LocalConfigDir>:/var/lib/mysql --name mysql -e MYSQL_ROOT_PASSWORD=xxxxx -p 3306:3306 -d mysql:latest
 ```
  Newznab
 Build the Docker file: 
