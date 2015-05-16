@@ -1,4 +1,4 @@
-# Docker-NewzNab_Plus
+# Docker NewzNab Plus
 NewzNab plus as Docker -  SQL Runs as seperate container
 
 Newznab as a Docker file  (http://www.newznab.com/)
